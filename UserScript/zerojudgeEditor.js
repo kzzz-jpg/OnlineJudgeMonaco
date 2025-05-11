@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         OJ Monaco Editor
-// @namespace    http://your-namespace/
+// @name         ZerojudgeEditor
+// @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  在題目頁面底部嵌入Monaco編輯器
-// @author       You
+// @description  在題目頁面提供編輯器，提供線上測試範例測資，一鍵提交到OJ
+// @author       唐狗針
 // @match        https://zerojudge.tw/*
 // @grant        GM_addStyle
 // @grant        GM_getValue
