@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  在題目頁面底部嵌入Monaco編輯器
 // @author       You
-// @match        https://judge.cchs.chc.edu.tw/*
+// @match        https://zerojudge.tw/*
 // @grant        GM_addStyle
 // @grant        GM_getValue
 // @grant        GM_setValue
