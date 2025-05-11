@@ -31,7 +31,7 @@
     // 防止重複注入
     if (document.getElementById('OJBetter_editor')) return;
     const requireScript = document.createElement('script');
-    requireScript.src = 'https://cdn.bootcdn.net/ajax/libs/require.js/2.3.7/require.min.js';
+    requireScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.7/require.min.js';
 
     // 添加編輯器容器
     const editorContainer = document.createElement('div');

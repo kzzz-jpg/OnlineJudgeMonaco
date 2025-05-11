@@ -1,5 +1,7 @@
 # OJ上的IDE
-在OJ頁面上透過userscript增加編輯器區域，目前只有[ZeroJudge](./UserScript/zerojudgeEditor.js)
+在OJ頁面上透過userscript增加編輯器區域，目前只有[ZeroJudge](./UserScript/zerojudgeEditor.js)        
+
+**內含大量AI程式**
 ## 主要功能
 - 在題目頁面提供編輯器
 - 提供線上測試範例測資
@@ -28,3 +30,8 @@
 可選擇語言有CPP/JAVA/PYTHON，透過下拉選單選擇後會自動更改提交時的語言選項，按下提交程式碼按鈕即可提交。
 
 下方有測試測資用區域，目前使用Wandbox API，不過目前只有CPP功能正常，JAVA和PYTHON都會出錯。
+
+#### 注意事項
+
+目前[Zerojudge.tw](https://zerojudge.tw/)因被CSP阻擋無法使用，但其他沒有CSP的zerojudge base網站可以。
+目前測試區只有CPP功能正常，JAVA和PYTHON都會出錯。
